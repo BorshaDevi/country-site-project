@@ -16,7 +16,7 @@ const ListTable = ({listData,listDatas,setListDatas}) => {
         confirmButtonText: "Yes, delete it!"
       }).then((result) => {
         if (result.isConfirmed) {
-          fetch(`http://localhost:5000/addSpots/${id}`,{
+          fetch(`https://server-site-country-project-fdvbc0v58-borshadevis-projects.vercel.app/addSpots/${id}`,{
             method:'Delete',
           })
           .then(res => res.json())

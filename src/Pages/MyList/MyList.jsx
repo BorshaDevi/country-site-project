@@ -9,7 +9,7 @@ const MyList = () => {
     const [listDatas,setListDatas]=useState([])
     useEffect(() => {
         if(user?.email){
-            fetch(`http://localhost:5000/addSpotsbyemail/${user?.email}`)
+            fetch(`https://server-site-country-project-fdvbc0v58-borshadevis-projects.vercel.app/addSpotsbyemail/${user?.email}`)
         .then(res => res.json())
         .then(data => setListDatas(data))
 

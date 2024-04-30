@@ -9,7 +9,7 @@ const TouristsSpot = () => {
     const [spots,setSpots] =useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/addSpots')
+        fetch('https://server-site-country-project-fdvbc0v58-borshadevis-projects.vercel.app/addSpots')
         .then(res=> res.json())
         .then(data =>{
             if(spots.length<=6){

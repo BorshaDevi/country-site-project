@@ -9,7 +9,7 @@ const Challenges = () => {
     const [challengeLoaders,setChallengeLoaders]=useState([])
     
     useEffect(() => {
-        fetch('http://localhost:5000/challenge')
+        fetch('https://server-site-country-project-fdvbc0v58-borshadevis-projects.vercel.app/challenge')
         .then(res => res.json())
         .then(data => setChallengeLoaders(data))
     },[])

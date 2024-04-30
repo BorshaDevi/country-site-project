@@ -21,7 +21,7 @@ const Update = () => {
         const photo=form.photo.value;
         const user={spotName,country,location,description,cost,season,time,perYear,photo}
         console.log(user)
-        fetch(`http://localhost:5000/addSpots/${_id}`,{
+        fetch(`https://server-site-country-project-fdvbc0v58-borshadevis-projects.vercel.app/addSpots/${_id}`,{
             method:'PUT',
             headers:{
                 "content-Type":'application/json',
