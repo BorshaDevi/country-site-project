@@ -11,7 +11,7 @@ const CountryCard = () => {
     const{countryName,short_des,cost,location,season,spotName}=countryLoad
     console.log(countryLoad)
     return (
-        <div className="max-w-xl mx-auto mt-5">
+        <div className="max-w-xl mx-auto mt-10">
 
             {
                 loading?<span className="loading loading-ring loading-lg text-center"></span>:

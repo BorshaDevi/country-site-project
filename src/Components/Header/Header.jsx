@@ -72,7 +72,7 @@ const Header = () => {
         <button className="bg-cyan-300 p-2 rounded-md" onClick={handleLogOut} >LogOut</button> 
         </div>
 </div>  
- :<div className="navbar-end flex ml-20 space-x-5">
+ :<div className="navbar-end md:flex ml-16 space-y-1 md:space-x-1">
       <Link to='/login' className="btn">Login</Link>
       <Link to='/register' className="btn">Register</Link>
     </div>
