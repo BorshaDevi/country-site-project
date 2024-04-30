@@ -20,7 +20,7 @@ const AddSport = () => {
         const photo=form.photo.value;
         const user={spotName,country,location,description,cost,season,time,perYear,email,name,photo}
         console.log(user)
-        fetch('https://server-site-country-project-fdvbc0v58-borshadevis-projects.vercel.app/addSpots',{
+        fetch('https://server-site-country-project.vercel.app/addSpots',{
             method:"POST",
             headers:{
                 "content-Type":'application/json',

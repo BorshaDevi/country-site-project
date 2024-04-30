@@ -54,18 +54,18 @@ const router = createBrowserRouter([
       {
         path:'/update/:id',
         element:<PrivateRoute><Update></Update></PrivateRoute>,
-        loader:({params}) => fetch(`https://server-site-country-project-fdvbc0v58-borshadevis-projects.vercel.app/addSpots/${params.id}`)
+        loader:({params}) => fetch(`https://server-site-country-project.vercel.app/addSpots/${params.id}`)
         
       },
       {
         path:'/viewPage/:id',
         element:<PrivateRoute><ViewPage></ViewPage></PrivateRoute>,
-        loader:({params}) => fetch(`https://server-site-country-project-fdvbc0v58-borshadevis-projects.vercel.app/addSpots/${params.id}`)
+        loader:({params}) => fetch(`https://server-site-country-project.vercel.app/addSpots/${params.id}`)
       },
      {
       path:'/challenge/:id',
       element:<CountryCard></CountryCard>,
-      loader:({params}) => fetch(`https://server-site-country-project-fdvbc0v58-borshadevis-projects.vercel.app/challenge/${params.id}`)
+      loader:({params}) => fetch(`https://server-site-country-project.vercel.app/challenge/${params.id}`)
 
      },
     ]
