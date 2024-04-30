@@ -2,7 +2,7 @@
 
 const Review = () => {
     return (
-        <div>
+        <div className="max-w-6xl mx-auto bg-stone-300">
             
         </div>
     );
