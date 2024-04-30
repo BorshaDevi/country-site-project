@@ -12,9 +12,9 @@ const TouristsSpot = () => {
         fetch('https://server-site-country-project.vercel.app/addSpots')
         .then(res=> res.json())
         .then(data =>{
-            if(spots.length<=6){
+            
                 setSpots(data)
-            }
+            
         })
     },[spots])
     return (
