@@ -40,6 +40,7 @@ const ListTable = ({listData,listDatas,setListDatas}) => {
     }
     return (
         <div>
+        
             <div className="overflow-x-auto">
   <table className="table">
     {/* head */}
