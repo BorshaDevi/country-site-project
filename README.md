@@ -68,6 +68,9 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 5.In logout hover show the user name.
 
 
+6.In Challenges file emplement filter
+
+
 
 
 
